@@ -1,0 +1,59 @@
+#SideBar
+{
+    background-color:rgb(209,209,212);
+}
+#sideBarMessageButton
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/blackImage/IMweb_news.png");
+}
+
+#sideBarMessageButton:checked
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/blackImage/IMweb_news.png");
+}
+
+#sideBarContactButton
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/blackImage/IMweb_qcard.png");
+}
+
+#sideBarContactButton:checked
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/image/IMweb_qcard.png");
+}
+
+#sidBarePersonalButton
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/blackImage/IMweb_grcard.png");
+}
+
+#sidBarePersonalButton:checked
+{
+    image:url("/Users/limingyuan/CLionProjects/untitled3/src/image/IMweb_grcard.png");
+}
+
+QToolButton
+{
+    background-color:transparent;
+    border:none;
+}
+
+QToolButton:hover
+{
+    background-color:rgba(82,79,73,0.8);
+}
+
+QPushButton
+{
+    background-color:transparent;
+    border:none;
+}
+
+QTextEdit
+{
+    border:none;
+}
+QTextEdit:disabled
+{
+    background-color:white;
+}
